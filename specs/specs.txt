@@ -1,9 +1,11 @@
-    As a user, I want to see a welcome page that includes where I can go and what I can do.
+As an administrator, I want to add a doctor to the database with a name and specialty.
 
-    As a user, I want to see all of the lists that I have created so that I can manage them one at a time.
+As an administrator, I want to add a patient with their name and birthdate.
 
-    As a user, I want to create new lists of different categories so that I can keep similar tasks together (phone calls, school work, house work, errands to run, bills to pay, etc)
+As an administrator, I want to be able to assign a patient to a doctor for care. (Hint: Doctors will have a one-to-many relationship with their patients.)
 
-    As a user, I want to select a single list and see the tasks for it.
+As a doctor, I want to see the list of patients that have been assigned to me.
 
-    As a user, I want to add tasks to a list.
+As a patient, I want to see a list of all the doctors in a particular specialty. A doctor will only have one specialty. (Hint: change from storing specialty as a column to making a specialties table.)
+
+As an administrator, I want to view an alphabetical list of doctors including the number of patients they see. (Hint: Do some online research for SQL ORDERing and COUNTing.)
